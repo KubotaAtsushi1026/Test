@@ -1,0 +1,42 @@
+@charset "utf-8";
+div#wrapper {
+    width: 600px;
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+h1 {
+    text-align: center;
+    color: red;
+    border-bottom: double 5px red;
+}
+div#effect1 {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+div#effect2 {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+}
+#effect2 img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+p {
+    text-align: center;
+    font-size: 20px;
+    color: blue;
+}
+div#effect3 {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+h1 {
+    color: blue;
+    background-color: skyblue;
+}
+.message {
+    color: blue;
+}
+.error {
+    color: red;
+}
+table, th, th, td {
+    border: solid 1px;
+}
+td img {
+    width: 150px;
+}
+li img {
+    width: 150px;
+}

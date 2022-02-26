@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+    
+        <link rel="icon" href="images/favicon.ico">
+        <title>画像アニメーション</title>
+        <style>
+ img {
+        width: 30px; /*画像サイズを極小にする*/
+        opacity: 0; /*透明にして見えないようにする*/
+      }
+  </style>
+    </head>
+    <body>
+  <img src="images/1.jpg" width="50" />
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script>
+        $('img').animate({
+    opacity: 1, //画像を見えるようにする
+    width: 400, //画像サイズを大きくする
+    marginLeft: 200 //画像を右方向へ移動させる
+}, 1000);
+        </script>
+    </body>
+</html>
